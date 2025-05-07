@@ -53,11 +53,11 @@
 
 // 6.
 
-let cities = ["paris", "ny", "tokyo", "london"];
-let citylist = [];
+// let cities = ["paris", "ny", "tokyo", "london"];
+// let citylist = [];
 
-for (let i = 0; i < cities.length; i++) {
-  const city = cities[i];
-  citylist.push(city);
-}
-console.log(citylist);
+// for (let i = 0; i < cities.length; i++) {
+//   const city = cities[i];
+//   citylist.push(city);
+// }
+// console.log(citylist);
