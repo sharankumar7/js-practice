@@ -63,4 +63,82 @@ for (const city in citiespopulation) {
   }
   citypop[city] = citiespopulation[city];
 }
-console.log(citypop);
+// console.log(citypop);
+
+// 6.
+
+let worldcities = {
+  london: 5000000,
+  tokyo: 9000000,
+  berlin: 3500000,
+  paris: 2200000,
+};
+let leargecities = {};
+for (const city in worldcities) {
+  if (worldcities[city] < 3000000) {
+    continue;
+  }
+  leargecities[city] = worldcities[city];
+}
+
+// 7.for each loop
+
+let teas = ["earl grey", "green tea", "chai", "oolong tea"];
+let availableteas = [];
+teas.forEach((tea) => {
+  if (tea === "chai") {
+    return;
+  }
+  availableteas.push(tea);
+});
+// console.log(availableteas);
+
+/*
+basic way to write function
+
+function name(params) {
+  console.log("im a simple function");
+}
+
+another way
+
+() => {
+  console.log("anoter way");
+};
+*/
+
+// 8.
+
+let worldcity = ["berlin", "tokyo", "sydney", "paris"];
+let traveledcities = [];
+worldcity.forEach((cit) => {
+  if (cit === "sydney") {
+    return;
+  }
+  traveledcities.push(cit);
+});
+// console.log(traveledcities);
+
+// 9.skips 7 and multiply remaining by 2
+
+let array = [2, 5, 7, 9];
+let doublednum = [];
+for (let s = 0; s < array.length; s++) {
+  if (array[s] === 7) {
+    continue;
+  }
+  doublednum.push(array[s] * 2);
+}
+// console.log(doublednum);
+
+// 10.
+
+let teasss = ["chai", "green tea", "black tea", "jasmine tea", "herbal tea"];
+let shortteas = [];
+for (const ele of teasss) {
+  if (ele.length > 10) {
+    break;
+  }
+  shortteas.push(ele);
+}
+// console.log(shortteas);

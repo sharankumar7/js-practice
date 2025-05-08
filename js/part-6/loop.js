@@ -1,3 +1,6 @@
+// for of loop for arrays
+// for in for objects
+
 // 1.sum of numbers from 1 to 5.
 // let sum=0
 // let i=1
