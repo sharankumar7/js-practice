@@ -27,6 +27,24 @@ let order = orderTea("chai");
 const calculateTool = (price, quantity) => price * quantity;
 // if it is one line then dont need of brackets and return function
 let totalcost = calculateTool(100, 5);
-console.log(totalcost);
+// console.log(totalcost);
 
 // 4.
+
+function maketea(fn) {
+  return `making ${fn} tea`;
+}
+function processteaorder(tea) {
+  return tea("earl grey");
+}
+let orders = processteaorder(maketea);
+// console.log(orders);
+
+// 5.
+function createTeamaker() {
+  return function (teatype) {
+    return `making ${teatype}`;
+  };
+}
+const teamake = createTeamaker();
+console.log(teamake("green tea"));
