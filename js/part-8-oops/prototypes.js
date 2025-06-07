@@ -12,3 +12,11 @@ console.log(comp);
 // dunder
 console.log(comp.__proto__);
 console.log(mac.__proto__);
+
+// let tools = {
+//   pen: "black",
+//   pencil: "blue",
+//   eraser: "red",
+//   __proto__: comp,
+// };
+// console.log(tools);
