@@ -1,0 +1,22 @@
+body {
+    background-color: aquamarine;
+    color: black;
+}
+
+button {
+    padding: 10px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    transition: ease-in-out;
+
+}
+
+button:hover {
+    padding: 30px;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    transition: ease-in-out;
+
+}
