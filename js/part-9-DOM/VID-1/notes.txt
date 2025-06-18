@@ -1,0 +1,13 @@
+1.Grab the ele
+    document.queryselector('. or # or tagname')
+    document.getElementById('give the id')
+    assign this to a var
+    ex:-let car=document.....addEventlistener('click',function(){
+        let var2=doc.....
+        var2.innerHTML("")
+    })
+
+2.create a item
+    let newitem = document.createElement('p')
+    newitem.textContent='New item'
+    document.getElementById("another var").appendChild(newitem)
