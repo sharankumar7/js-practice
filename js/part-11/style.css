@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 96vh;
+    text-align: center;
+}
+
+.container {}
+
+button,
+input {
+    margin: 5px;
+    padding: 5px;
+}
+
+ul li {
+    padding-left: 15px;
+}
